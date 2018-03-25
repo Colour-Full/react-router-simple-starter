@@ -22,8 +22,8 @@ class Nav extends Component {
         </ul>
         <div className="content">
           <Route  path="/" component={Home} />
-            <Route path="/blog" component={Blog} />
-            <Route path="/contact" component={Contact} />
+          <Route path="/blog" component={Blog} />
+          <Route path="/contact" component={Contact} />
         </div>
       </div>
       </BrowserRouter>
