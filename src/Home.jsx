@@ -1,7 +1,9 @@
-import React, { Component } from "react";
-
+import React, { Component } from 'react'
 class Home extends Component {
-  render() {
+  componentWillLeave () {
+    console.log('Component will leave')
+  }
+  render () {
     return (
       <div>
         <h2>HELLO</h2>
@@ -13,8 +15,8 @@ class Home extends Component {
         dis parturient montes, nascetur ridiculus mus.</p>
         <p>Duis a turpis sed lacus dapibus elementum sed eu lectus.</p>
       </div>
-    );
+    )
   }
 }
 
-export default Home;
+export default Home
